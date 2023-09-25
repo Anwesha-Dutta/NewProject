@@ -1,0 +1,489 @@
+* {
+    font-family: sans-serif;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    background-color: #f7f7f7;
+
+}
+
+.parent .left {
+    width: 20%
+}
+
+.parent .middle {
+    width: 40%;
+
+}
+
+.parent .last {
+    width: 40%;
+}
+
+.container .parent .middle ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .parent .middle ul li {
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.container .parent .last ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .parent .last ul li {
+
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.banner img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.banner {
+
+    position: relative;
+}
+
+.banner .container .insidebanner1 {
+    width: 50%;
+}
+
+.banner .container .insidebanner2 {
+    padding: 40px;
+    background-color: rgba(0, 0, 0, .7);
+    color: #d9d9d9;
+    border-radius: 10px;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 120px;
+    transform: translateY(50%);
+
+}
+
+.banner .insidebanner2 h5 {
+    font-size: 20px;
+}
+
+.banner .insidebanner2 h3 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner .insidebanner2 p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.banner .insidebanner2 button {
+
+
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    padding: 12px 60px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nextpart {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.nextpart .container .join {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nextpart .container .left h5 {
+
+    font-size: 16px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.nextpart .container .left h3 {
+    font-size: 48px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.nextpart .container .left p {
+    font-size: 16px;
+    color: black;
+
+}
+
+.nextpart .container .right button {
+    padding: 10px 32px;
+    border-radius: 20px;
+    transform: translateY(320%);
+}
+
+.nextpart .container .right button a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.next .container .nextjoin {
+    display: flex;
+}
+
+
+
+.next .container .owl-carousel .item img {
+    height: 255px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 25px;
+
+}
+
+.next .container .owl-carousel .item img:last-child {
+    margin-right: 0;
+}
+
+.owl-nav .owl-prev {
+    display: none;
+}
+
+.owl-nav .owl-next {
+    display: none;
+}
+
+.container .product1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.container .product1 .card img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.container .product1 .card {
+    width: 25%;
+    padding-right: 25px;
+    margin-bottom: 25px;
+}
+
+.container .product1 .card .section {
+    padding: 25px;
+}
+
+
+.container .product2 .card:last-child {
+    padding-right: 0;
+}
+
+/* .container .product1 .card:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+
+} */
+
+
+.container .product1 .card .Rp {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.container .product1 .card h3 {
+    font-size: 22px;
+    color: #000;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.container .product1 .card .flexh3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .product1 .card p {
+    font-size: 18px;
+    color: grey;
+}
+
+
+.container .product1 .card .flexh3 .second3 .Rp {
+    font-size: 18px;
+    color: #9f9f9f;
+    margin-bottom: 6px;
+    margin-bottom: 8px;
+    text-decoration: line-through;
+}
+
+.container .product1 .card .flexh3 .second3 h3 {
+    font-size: 18px;
+    color: #9f9f9f;
+    margin-bottom: 6px;
+    margin-bottom: 8px;
+    text-decoration: line-through;
+}
+
+.container .product2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.container .product2 .card img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+.container .product2 .card {
+    width: 25%;
+    padding-right: 25px;
+
+}
+
+
+
+
+
+
+.container .product2 .card .flexh3 .firsth3 .Rp {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 6px;
+    margin-bottom: 8px;
+}
+
+.container .product2 .card .flexh3 .second3 .Rp {
+    font-size: 18px;
+    color: #9f9f9f;
+    margin-bottom: 6px;
+    margin-bottom: 8px;
+    text-decoration: line-through;
+}
+
+.container .product2 .card .flexh3 .second3 h3 {
+    font-size: 18px;
+    color: #9f9f9f;
+    margin-bottom: 6px;
+    margin-bottom: 8px;
+    text-decoration: line-through;
+}
+
+.container .product2 .card .flexh3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .product2 .card h3 {
+    font-size: 22px;
+    color: #000;
+    margin-top: 0;
+}
+
+.container .product2 .card p {
+    font-size: 18px;
+    color: grey;
+}
+
+.container .product2 .card .section {
+    padding: 25px;
+}
+
+.container .upnext {
+    margin-top: 100px;
+}
+
+.container .upnext .left {
+    width: 40%;
+}
+
+.container .upnext .left h3 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.container .upnext .left p {
+    color: #616161;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container .upnext .left .btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    padding: 12px 50px;
+    font-weight: 600;
+}
+
+.container .upnext .right {
+    width: 60%;
+}
+
+.container .review {
+    margin-top: 100px;
+    background-color: lightgrey;
+}
+
+.container .review .new .item img {
+    width: 252px;
+    height: 216px;
+    object-fit: contain;
+}
+
+.container .review .new .item {
+    display: flex;
+    width: 100%;
+    background-color: white;
+
+}
+
+.container .review h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container .review p {
+    text-align: center;
+}
+
+
+.container .footer {
+    background-color: white;
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.container .footer .one {
+    width: 30%;
+}
+
+.container .footer .two {
+    width: 20%;
+}
+
+.container .footer .three {
+    width: 20%;
+}
+
+.container .footer .four {
+    width: 30%;
+}
+
+.container .footer .one h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.container .footer .one p {
+    font-size: 16px;
+    color: #9f9f9f;
+}
+
+.container .footer .two .para {
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.container .footer .two ul li {
+    list-style-type: none;
+    font-weight: bold;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.container .footer .three .para {
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.container .footer .three ul li {
+    list-style-type: none;
+    font-weight: bold;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.container .footer .four .para {
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.container .footer .four .flexpara {
+    display: flex;
+}
+
+.container .footer .four .flexpara .underline {
+    text-decoration: underline;
+
+}
+
+.container .footer .four .flexpara .bold {
+    text-decoration: underline;
+    font-weight: 600;
+    padding-left: 10px;
+
+}
+
+.container .lastfooter .last {
+    padding: 32px 0;
+    color: #000;
+    margin: 0;
+    border-top: 1px solid #d9d9d9;
+    font-size: 16px;
+
+}
