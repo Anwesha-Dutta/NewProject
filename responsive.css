@@ -1,0 +1,778 @@
+@media(max-width:1199px) {
+    * {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        padding: 0 25px;
+    }
+
+
+
+    .container .product1 .card {
+        width: calc(50% - 25px);
+    }
+
+
+
+    .container .footer .one {
+        width: 25%;
+
+    }
+
+    .container .footer .two {
+        width: 25%;
+
+    }
+
+    .container .footer .three {
+        width: 25%;
+    }
+
+    .container .footer .four {
+        width: 25%;
+    }
+
+    .container .lastfooter .last {
+
+        margin-top: 25px;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara .text p {
+
+        font-size: 17px;
+    }
+
+
+    .review .container .owl-carousel2 .item .fleximgpara h5 {
+        font-size: 18px;
+    }
+
+
+
+    .review .container .owl-carousel2 .item .fleximgpara img {
+        width: 50%;
+    }
+
+    .container .upnext .left {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .container .upnext .right {
+        width: 60%;
+
+    }
+
+
+
+
+
+    .nextpart .container .right button a {
+        font-size: 20px;
+    }
+
+
+    .nextpart .container .left h3 {
+        font-size: 50px;
+    }
+
+    .nextpart .container .left p {
+        font-size: 18px;
+    }
+
+    .nextpart .container .left h5 {
+        font-size: 16px;
+    }
+
+    .banner .insidebanner2 h3 {
+        font-size: 52px;
+    }
+
+    .banner .insidebanner2 p {
+        font-size: 19px;
+    }
+
+
+    .banner .insidebanner2 button {
+        padding: 16px 44px;
+    }
+
+    .banner .insidebanner2 button {
+        font-size: 15px;
+    }
+
+    .container .parent .middle ul li {
+        display: block;
+
+
+    }
+
+    .container .parent .last ul li {
+        font-size: 18px;
+    }
+
+    .container .parent .last i {
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width:1024px) {
+    * {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        padding: 0 25px;
+    }
+
+    .container .product1 {
+
+        flex-wrap: wrap;
+    }
+
+    .container .product1 .card {
+        width: calc(50% - 25px);
+    }
+
+    .container .footer {
+        flex-wrap: wrap;
+    }
+
+    .container .footer .one {
+        width: 50%;
+
+    }
+
+    .container .footer .two {
+        width: 50%;
+
+    }
+
+    .container .footer .three {
+        width: 50%;
+    }
+
+    .container .footer .four {
+        width: 50%;
+    }
+
+    .container .lastfooter .last {
+
+        margin-top: 25px;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara .text p {
+
+        font-size: 17px;
+    }
+
+
+    .review .container .owl-carousel2 .item .fleximgpara h5 {
+        font-size: 18px;
+    }
+
+
+
+    .review .container .owl-carousel2 .item .fleximgpara img {
+        width: 50%;
+    }
+
+    .container .upnext .left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .container .upnext .right {
+        width: 100%;
+
+    }
+
+    .container .upnext .flexleftright {
+        flex-wrap: wrap;
+    }
+
+
+
+    .nextpart .container .right button a {
+        font-size: 20px;
+    }
+
+
+    .nextpart .container .left h3 {
+        font-size: 50px;
+    }
+
+    .nextpart .container .left p {
+        font-size: 18px;
+    }
+
+    .nextpart .container .left h5 {
+        font-size: 16px;
+    }
+
+    .banner .insidebanner2 h3 {
+        font-size: 52px;
+    }
+
+    .banner .insidebanner2 p {
+        font-size: 19px;
+    }
+
+
+    .banner .insidebanner2 button {
+        padding: 16px 44px;
+    }
+
+    .banner .insidebanner2 button {
+        font-size: 15px;
+    }
+
+    .container .parent .middle ul li {
+        display: block;
+
+
+    }
+
+    .container .parent .last ul li {
+        font-size: 18px;
+    }
+
+    .container .parent .last i {
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width:991px) {
+    * {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        padding: 0 25px;
+    }
+
+    .container .product1 {
+
+        flex-wrap: wrap;
+    }
+
+    .container .product1 .card {
+        width: calc(50% - 25px);
+    }
+
+    .container .footer {
+        flex-wrap: wrap;
+    }
+
+    .container .footer .one {
+        width: 50%;
+
+    }
+
+    .container .footer .two {
+        width: 50%;
+
+    }
+
+    .container .footer .three {
+        width: 50%;
+    }
+
+    .container .footer .four {
+        width: 50%;
+    }
+
+    .container .lastfooter .last {
+
+        margin-top: 25px;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara .text p {
+
+        font-size: 15px;
+    }
+
+
+    .review .container .owl-carousel2 .item .fleximgpara h5 {
+        font-size: 18px;
+    }
+
+
+
+    .review .container .owl-carousel2 .item .fleximgpara img {
+        width: 50%;
+    }
+
+    .container .upnext .left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .container .upnext .right {
+        width: 100%;
+
+    }
+
+    .container .upnext .flexleftright {
+        flex-wrap: wrap;
+    }
+
+
+
+    .nextpart .container .right button a {
+        font-size: 20px;
+    }
+
+
+    .nextpart .container .left h3 {
+        font-size: 45px;
+    }
+
+    .nextpart .container .left p {
+        font-size: 17px;
+    }
+
+    .nextpart .container .left h5 {
+        font-size: 16px;
+    }
+
+    .banner .insidebanner2 h3 {
+        font-size: 45px;
+    }
+
+    .banner .insidebanner2 p {
+        font-size: 18px;
+    }
+
+
+    .banner .insidebanner2 button {
+        padding: 16px 44px;
+    }
+
+    .banner .insidebanner2 button {
+        font-size: 15px;
+    }
+
+    .container .parent .middle ul li {
+        display: block;
+
+
+    }
+
+    .container .parent .last ul li {
+        font-size: 18px;
+    }
+
+    .container .parent .last i {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:767px) {
+    * {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        padding: 0 25px;
+    }
+
+    .container .product1 {
+
+        flex-wrap: wrap;
+    }
+
+    .container .product1 .card {
+        width: calc(50% - 25px);
+    }
+
+    .container .footer {
+        flex-wrap: wrap;
+    }
+
+    .container .footer .one {
+        width: 100%;
+    }
+
+    .container .footer .two {
+        width: 100%;
+    }
+
+    .container .footer .three {
+        width: 100%;
+    }
+
+    .container .footer .four {
+        width: 100%;
+    }
+
+    .container .lastfooter .last {
+
+        margin-top: 25px;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara .text p {
+
+        font-size: 15px;
+    }
+
+
+    .review .container .owl-carousel2 .item .fleximgpara h5 {
+        font-size: 18px;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara {
+
+        flex-wrap: wrap;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara img {
+        width: 100%;
+    }
+
+    .container .upnext .left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .container .upnext .right {
+        width: 100%;
+
+    }
+
+    .container .upnext .flexleftright {
+        flex-wrap: wrap;
+    }
+
+
+
+    .nextpart .container .right button a {
+        font-size: 18px;
+    }
+
+
+    .nextpart .container .left h3 {
+        font-size: 40px;
+    }
+
+    .nextpart .container .left p {
+        font-size: 16px;
+    }
+
+    .nextpart .container .left h5 {
+        font-size: 15px;
+    }
+
+    .banner .insidebanner2 h3 {
+        font-size: 36px;
+    }
+
+    .banner .insidebanner2 p {
+        font-size: 18px;
+    }
+
+
+    .banner .insidebanner2 button {
+        padding: 16px 36px;
+    }
+
+    .banner .insidebanner2 button {
+        font-size: 15px;
+    }
+
+    .container .parent .middle ul li {
+        display: none;
+
+
+    }
+
+    .container .parent .last ul li {
+        font-size: 18px;
+    }
+
+    .container .parent .last i {
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width:575px) {
+    * {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        padding: 0 25px;
+    }
+
+    .container .product1 {
+
+        flex-wrap: wrap;
+    }
+
+    .container .product1 .card {
+        width: calc(50% - 25px);
+    }
+
+    .container .footer {
+        flex-wrap: wrap;
+    }
+
+    .container .footer .one {
+        width: 100%;
+    }
+
+    .container .footer .two {
+        width: 100%;
+    }
+
+    .container .footer .three {
+        width: 100%;
+    }
+
+    .container .footer .four {
+        width: 100%;
+    }
+
+    .container .lastfooter .last {
+
+        margin-top: 25px;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara .text p {
+
+        font-size: 15px;
+    }
+
+
+    .review .container .owl-carousel2 .item .fleximgpara h5 {
+        font-size: 18px;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara {
+
+        flex-wrap: wrap;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara img {
+        width: 100%;
+    }
+
+    .container .upnext .left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .container .upnext .right {
+        width: 100%;
+
+    }
+
+    .container .upnext .flexleftright {
+        flex-wrap: wrap;
+    }
+
+
+
+    .nextpart .container .right button a {
+        font-size: 12px;
+    }
+
+
+    .nextpart .container .left h3 {
+        font-size: 36px;
+    }
+
+    .nextpart .container .left p {
+        font-size: 14px;
+    }
+
+    .nextpart .container .left h5 {
+        font-size: 14px;
+    }
+
+    .banner .insidebanner2 h3 {
+        font-size: 28px;
+    }
+
+    .banner .insidebanner2 p {
+        font-size: 15px;
+    }
+
+
+    .banner .insidebanner2 button {
+        padding: 14px 30px;
+    }
+
+    .banner .insidebanner2 button {
+        font-size: 14px;
+    }
+
+    .container .parent .middle ul li {
+        display: none;
+
+
+    }
+
+    .container .parent .last ul li {
+        font-size: 15px;
+    }
+
+    .container .parent .last i {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:320px) {
+    * {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        padding: 0 25px;
+    }
+
+    .container .product1 {
+
+        flex-wrap: wrap;
+    }
+
+    .container .product1 .card {
+        width: 100%;
+    }
+
+
+
+    .nextpart .container .left h3 {
+        font-size: 22px;
+    }
+
+    .container .footer {
+        flex-wrap: wrap;
+    }
+
+    .container .footer .one {
+        width: 100%;
+    }
+
+    .container .footer .two {
+        width: 100%;
+    }
+
+    .container .footer .three {
+        width: 100%;
+    }
+
+    .container .footer .four {
+        width: 100%;
+    }
+
+    .container .lastfooter .last {
+
+        margin-top: 25px;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara .text p {
+
+        font-size: 15px;
+    }
+
+
+    .review .container .owl-carousel2 .item .fleximgpara h5 {
+        font-size: 18px;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara {
+
+        flex-wrap: wrap;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara img {
+        width: 100%;
+    }
+
+    .container .upnext .left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .container .upnext .right {
+        width: 100%;
+
+    }
+
+    .container .upnext .flexleftright {
+        flex-wrap: wrap;
+    }
+
+
+
+    .nextpart .container .right button a {
+        font-size: 12px;
+    }
+
+
+    .nextpart .container .left h3 {
+        font-size: 36px;
+    }
+
+    .nextpart .container .left p {
+        font-size: 14px;
+    }
+
+    .nextpart .container .left h5 {
+        font-size: 14px;
+    }
+
+    .banner .insidebanner2 h3 {
+        font-size: 28px;
+    }
+
+    .banner .insidebanner2 p {
+        font-size: 15px;
+    }
+
+
+    .banner .insidebanner2 button {
+        padding: 14px 30px;
+    }
+
+    .banner .insidebanner2 button {
+        font-size: 14px;
+    }
+
+    .container .parent .middle ul li {
+        display: none;
+
+
+    }
+
+    .container .parent .last ul li {
+        font-size: 15px;
+    }
+
+    .container .parent .last i {
+        font-size: 18px;
+    }
+}
