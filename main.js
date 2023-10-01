@@ -1,6 +1,6 @@
 $('.owl-carousel1').owlCarousel({
     loop:true,
-    margin:10,
+    margin:25,
     nav:true,
     responsive:{
         0:{
@@ -49,3 +49,30 @@ $('.owl-carousel3').owlCarousel({
         }
     }
 })
+
+function show_cart()
+{
+    document.getElementById("cart").classList.add("active");
+}
+
+function hide_cart()
+{
+    document.getElementById("cart").classList.remove("active");
+}
+
+
+// // function toggle_cart(){
+//     document.getElementById("cart").classList.toggle("active");
+// }
+
+function show_content()
+{
+    // document.getElementById("bar").classList.add("active");
+    document.getElementById("bar").style.display="block";
+}
+
+function hide_content()
+{
+    // document.getElementById("bar").classList.remove("active");
+    document.getElementById("bar").style.display="none";
+}

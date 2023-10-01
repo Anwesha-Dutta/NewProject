@@ -27,26 +27,89 @@
 
 
                 <div class="left">
+
+                    <button onclick="show_content()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
                     <img src="images/logo.png">
                 </div>
 
 
-                <div class="middle">
+                <div class="middle" id="bar">
                     <ul>
-                        <li>JV Services</li>
-                        <li>JV Store</li>
-                        <li>About</li>
-                        <li>Contact</li>
+                        <li><a href="index.html">JV Services</a></li>
+                        <li><a href="JV-Store.html">JV Store</a></li>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="index.html">Contact</a></li>
                     </ul>
+                    <button onclick="hide_content()">
+                        <i class="fa-regular fa-circle-xmark"></i></button>
                 </div>
 
                 <div class="last">
                     <ul>
-                        <li>Login/Register</li>
+
+                        <li class="flexli">
+                            <a href="Login.php">Login</a>/
+                            <a href="Registration.php">Registration</a>
+                        </li>
+
+
                         <li class="icon"><i class="fa-solid fa-magnifying-glass"></i></li>
                         <li class="icon"><i class="fa-regular fa-heart"></i></li>
-                        <li class="icon"><i class="fa-solid fa-cart-shopping"></i></li>
+                        <li class="icon" onclick="show_cart()"><i class="fa-solid fa-cart-shopping"></i></li>
                     </ul>
+                    <!-- cart-section -->
+                    <div class="cart" id="cart">
+                        <div class="firstflex">
+                            <h3>Shopping Cart</h3>
+                            <button class="firstbtn" onclick="hide_cart()">
+                                <i class="fa-regular fa-circle-xmark"></i></button>
+                        </div>
+                        <div class="flexdiv1">
+                            <img src="images/sofa.jpg">
+
+                            <div class="flexnow">
+                                <p>Asgaard sofa</p>
+
+                                <span class="qty">1</span>
+                                <span>X</span>
+                                <span class="price">Rs. 250,000.00</span>
+
+                            </div>
+                            <button class="cross">
+                                <i class="fa-regular fa-circle-xmark"></i>
+                            </button>
+
+                        </div>
+
+                        <div class="flexdiv1">
+                            <img src="images/newchair.jpg">
+
+                            <div class="flexnow">
+                                <p>Casaliving wood</p>
+
+                                <span class="qty">1</span>
+                                <span>X</span>
+                                <span class="price">Rs. 250,000.00</span>
+
+                            </div>
+                            <button class="cross">
+                                <i class="fa-regular fa-circle-xmark"></i>
+                            </button>
+                        </div>
+
+                        <div class="subtotal">
+                            <h5>Subtotal</h5>
+                            <h5>Rs. 520,000.00</h5>
+                        </div>
+
+                        <div class="footer-section">
+                            <button class="btn-new">Cart</button>
+                            <button class="btn-new">Checkout</button>
+                            <button class="btn-new">Comparison</button>
+                        </div>
+                    </div>
                 </div>
 
             </div>

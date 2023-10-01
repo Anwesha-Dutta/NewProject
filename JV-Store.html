@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jv Store</title>
+    <link rel="stylesheet" href="owl.carousel.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="container">
+
+            <div class="parent">
+
+
+                <div class="left">
+
+                    <button onclick="show_content()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <img src="images/logo.png">
+                </div>
+
+
+                <div class="middle" id="bar">
+                    <ul>
+                        <li><a href="#">JV Services</a></li>
+                        <li><a href="#">JV Store</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <button onclick="hide_content()">
+                        <i class="fa-regular fa-circle-xmark"></i></button>
+                </div>
+
+                <div class="last">
+                    <ul>
+
+                        <li class="flexli">
+                            <a href="Login.php">Login</a>/
+                            <a href="Registration.php">Registration</a>
+                        </li>
+
+
+                        <li class="icon"><i class="fa-solid fa-magnifying-glass"></i></li>
+                        <li class="icon"><i class="fa-regular fa-heart"></i></li>
+                        <li class="icon" onclick="show_cart()"><i class="fa-solid fa-cart-shopping"></i></li>
+                    </ul>
+                    <!-- cart-section -->
+                    <div class="cart" id="cart">
+                        <div class="firstflex">
+                            <h3>Shopping Cart</h3>
+                            <button class="firstbtn" onclick="hide_cart()">
+                                <i class="fa-regular fa-circle-xmark"></i></button>
+                        </div>
+                        <div class="flexdiv1">
+                            <img src="images/sofa.jpg">
+
+                            <div class="flexnow">
+                                <p>Asgaard sofa</p>
+
+                                <span class="qty">1</span>
+                                <span>X</span>
+                                <span class="price">Rs. 250,000.00</span>
+
+                            </div>
+                            <button class="cross">
+                                <i class="fa-regular fa-circle-xmark"></i>
+                            </button>
+
+                        </div>
+
+                        <div class="flexdiv1">
+                            <img src="images/newchair.jpg">
+
+                            <div class="flexnow">
+                                <p>Casaliving wood</p>
+
+                                <span class="qty">1</span>
+                                <span>X</span>
+                                <span class="price">Rs. 250,000.00</span>
+
+                            </div>
+                            <button class="cross">
+                                <i class="fa-regular fa-circle-xmark"></i>
+                            </button>
+                        </div>
+
+                        <div class="subtotal">
+                            <h5>Subtotal</h5>
+                            <h5>Rs. 520,000.00</h5>
+                        </div>
+
+                        <div class="footer-section">
+                            <button class="btn-new">Cart</button>
+                            <button class="btn-new">Checkout</button>
+                            <button class="btn-new">Comparison</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <div class="inner-banner">
+        <div class="image">
+
+            <img src="images/inner-banner1.jpg">
+        </div>
+
+
+        <div class="text-area">
+            <h3>Store</h3>
+            <div class="bread-crumb">
+                <a class="active" href="index.html">Home</a>
+                <span class="span">></span>
+                <span>Store</span>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="next-area">
+
+        <div class="container">
+            <div class="flexthree">
+
+                <div class="left">
+
+                    <button class="btnone">
+                        <i class="fa-solid fa-sliders"></i>
+                        <span>Filter</span>
+                    </button>
+
+                    <button class="btntwo">
+                        <i class="fa-solid fa-grip"></i>
+                    </button>
+
+                    <button class="btnthree">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </button>
+                </div>
+
+
+                <div class="middle">
+                    <div class="container">
+                        <div class="result">
+                            <span>Showing</span>
+                            <span>1-6</span>
+                            <span>32 results</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="right">
+                    <div class="container">
+                        <div class="flexfour">
+                            <span>Show</span>
+
+                            <form>
+                                <input type="text" placeholder="15">
+                            </form>
+
+                            <span>Short by</span>
+
+
+                            <select id="option">
+                                <option value="1">Default</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="product1">
+            <div class="card">
+                <div class="hover">
+
+                    <button class="btn1">Add To Cart</button>
+                    <div class="flexbtn">
+                        <button class="icon2"><i class="fa-solid fa-share-nodes"></i>Share</button>
+                        <button class="icon2"><i class="fa-solid fa-code-compare"></i>Compare</button>
+                        <button class="icon2"><i class="fa-regular fa-heart"></i>Like</button>
+                    </div>
+                </div>
+                <img src="images/product1.jpg">
+                <div class="round">
+                    <p>-30%</p>
+                </div>
+
+                <div class="section">
+
+                    <h3>Syltherine</h3>
+                    <p>Luxury big sofa</p>
+
+                    <div class="flexh3">
+                        <div class="firsth3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>2.500.000</h3>
+                        </div>
+                        <div class="second3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>3.500.000</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <div class="hover">
+                    <button class="btn1">Add To Cart</button>
+                    <div class="flexbtn">
+                        <button class="icon2"><i class="fa-solid fa-share-nodes"></i>Share</button>
+                        <button class="icon2"><i class="fa-solid fa-code-compare"></i>Compare</button>
+                        <button class="icon2"><i class="fa-regular fa-heart"></i>Like</button>
+                    </div>
+                </div>
+                <img src="images/productnew.jpg">
+                <div class="round">
+                    <p>-30%</p>
+                </div>
+
+                <div class="section">
+
+                    <h3>Leviosa</h3>
+                    <p>Outdoor bar table & stool</p>
+                    <div class="flexh3">
+                        <div class="firsth3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>2.500.000</h3>
+                        </div>
+                        <div class="second3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>3.500.000</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="hover">
+                    <button class="btn1">Add To Cart</button>
+                    <div class="flexbtn">
+                        <button class="icon2"><i class="fa-solid fa-share-nodes"></i>Share</button>
+                        <button class="icon2"><i class="fa-solid fa-code-compare"></i>Compare</button>
+                        <button class="icon2"><i class="fa-regular fa-heart"></i>Like</button>
+                    </div>
+                </div>
+
+
+                <img src="images/product3.jpg">
+
+                <div class="round">
+                    <p>-50%</p>
+                </div>
+
+                <div class="section">
+
+                    <h3>Lolito</h3>
+                    <p>Outdoor bar table & stool</p>
+                    <div class="flexh3">
+                        <div class="firsth3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>2.500.000</h3>
+                        </div>
+                        <div class="second3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>3.500.000</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="hover">
+                    <button class="btn1">Add To Cart</button>
+                    <div class="flexbtn">
+                        <button class="icon2"><i class="fa-solid fa-share-nodes"></i>Share</button>
+                        <button class="icon2"><i class="fa-solid fa-code-compare"></i>Compare</button>
+                        <button class="icon2"><i class="fa-regular fa-heart"></i>Like</button>
+                    </div>
+                </div>
+
+
+                <img src="images/product4.jpg">
+                <div class="round1">
+                    <p>New</p>
+                </div>
+
+                <div class="section">
+                    <h3>Respira</h3>
+                    <p>Stylish cafe chair</p>
+                    <div class="flexh3">
+                        <div class="firsth3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>2.500.000</h3>
+                        </div>
+                        <div class="second3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>3.500.000</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <div class="product1">
+            <div class="card">
+                <div class="hover">
+
+                    <button class="btn1">Add To Cart</button>
+                    <div class="flexbtn">
+                        <button class="icon2"><i class="fa-solid fa-share-nodes"></i>Share</button>
+                        <button class="icon2"><i class="fa-solid fa-code-compare"></i>Compare</button>
+                        <button class="icon2"><i class="fa-regular fa-heart"></i>Like</button>
+                    </div>
+                </div>
+                <img src="images/product5.jpg">
+
+                <div class="section">
+
+                    <h3>Syltherine</h3>
+                    <p>Luxury big sofa</p>
+                    <div class="flexh3">
+                        <div class="firsth3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>2.500.000</h3>
+                        </div>
+                        <div class="second3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>3.500.000</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="hover">
+                    <button class="btn1">Add To Cart</button>
+                    <div class="flexbtn">
+                        <button class="icon2"><i class="fa-solid fa-share-nodes"></i>Share</button>
+                        <button class="icon2"><i class="fa-solid fa-code-compare"></i>Compare</button>
+                        <button class="icon2"><i class="fa-regular fa-heart"></i>Like</button>
+                    </div>
+                </div>
+
+
+                <img src="images/newchair.jpg">
+
+                <div class="round1">
+                    <p>New</p>
+
+
+
+                </div>
+
+                <div class="section">
+
+                    <h3>Leviosa</h3>
+                    <p>Outdoor bar table & stool</p>
+                    <div class="flexh3">
+                        <div class="firsth3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>2.500.000</h3>
+                        </div>
+                        <div class="second3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>3.500.000</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="hover">
+                    <button class="btn1">Add To Cart</button>
+                    <div class="flexbtn">
+                        <button class="icon2"><i class="fa-solid fa-share-nodes"></i>Share</button>
+                        <button class="icon2"><i class="fa-solid fa-code-compare"></i>Compare</button>
+                        <button class="icon2"><i class="fa-regular fa-heart"></i>Like</button>
+                    </div>
+                </div>
+
+
+                <img src="images/project7.jpg">
+
+                <div class="round">
+                    <p>-50%</p>
+                </div>
+
+                <div class="section">
+
+                    <h3>Lolito</h3>
+                    <p>Luxury big sofa</p>
+                    <div class="flexh3">
+                        <div class="firsth3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>2.500.000</h3>
+                        </div>
+                        <div class="second3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>3.500.000</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="hover">
+                    <button class="btn1">Add To Cart</button>
+                    <div class="flexbtn">
+                        <button class="icon2"><i class="fa-solid fa-share-nodes"></i>Share</button>
+                        <button class="icon2"><i class="fa-solid fa-code-compare"></i>Compare</button>
+                        <button class="icon2"><i class="fa-regular fa-heart"></i>Like</button>
+                    </div>
+                </div>
+
+
+                <img src="images/bed.jpg">
+
+                <div class="round1">
+                    <p>New</p>
+                </div>
+
+                <div class="section">
+
+                    <h3>Respira</h3>
+                    <p>Luxury big bed</p>
+                    <div class="flexh3">
+                        <div class="firsth3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>2.500.000</h3>
+                        </div>
+                        <div class="second3">
+                            <h3 class="Rp">Rp</h3>
+                            <h3>3.500.000</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="new-last">
+        <div class="container">
+            <div class="footer">
+                <div class="one">
+                    <h3>JEveux</h3>
+                    <p>400 University Drive Suite 200 Coral Gables,
+                        FL 33134 USA</p>
+                </div>
+                <div class="two">
+                    <ul>
+                        <li class="para">Link</li>
+                        <li>Home</li>
+                        <li>Shop</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+
+                </div>
+
+                <div class="three">
+                    <ul>
+                        <li class="para">Help</li>
+                        <li>Paytm options</li>
+                        <li>Returns</li>
+                        <li>Privacy Policies</li>
+                    </ul>
+
+
+                </div>
+
+                <div class="four">
+                    <p class="para">Newsletter</p>
+                    <div class="flexpara">
+                        <input type="text" placeholder="Enter your Email Address" class="underline">
+                        <p class="bold">SUBSCRIBE</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="lastfooter">
+            <p class="last">2023 JEVeus. All rights reserved</p>
+        </div>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -272,26 +272,24 @@
         width: calc(50% - 25px);
     }
 
-    .container .footer {
-        flex-wrap: wrap;
-    }
+
 
     .container .footer .one {
-        width: 50%;
+        width: 100%;
 
     }
 
     .container .footer .two {
-        width: 50%;
+        width: 100%;
 
     }
 
     .container .footer .three {
-        width: 50%;
+        width: 100%;
     }
 
     .container .footer .four {
-        width: 50%;
+        width: 100%;
     }
 
     .container .lastfooter .last {
@@ -365,10 +363,41 @@
         font-size: 15px;
     }
 
-    .container .parent .middle ul li {
+    .container .parent .middle {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        min-height: 100vh;
+        display: none;
+    }
+
+    .container .parent .middle.active {
+        display: block;
+    }
+
+    .body .container .parent .left button {
         display: block;
 
 
+    }
+
+    .container .parent .middle button {
+        display: block;
+    }
+
+    .container .parent .middle ul {
+
+        align-items: start;
+        flex-direction: column;
+        background-color: white;
+
+    }
+
+
+
+    .container .parent .middle ul li {
+        padding: 20px;
     }
 
     .container .parent .last ul li {
@@ -378,6 +407,14 @@
     .container .parent .last i {
         font-size: 20px;
     }
+
+    /* .body .container .parent .left button {
+        display: none;
+    }
+
+    .body .container .parent .left button.active {
+        display: block;
+    } */
 }
 
 @media(max-width:767px) {
@@ -390,6 +427,17 @@
 
     .container {
         padding: 0 25px;
+    }
+
+    .banner .container .insidebanner2 {
+        padding: 32px;
+        width: 100%;
+        right: 0;
+    }
+
+
+    .banner img {
+        height: 550px;
     }
 
     .container .product1 {
@@ -495,8 +543,35 @@
         font-size: 15px;
     }
 
+
+
+    .container .parent .middle {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        min-height: 100vh;
+        width: 250px;
+    }
+
+    .container .parent .middle button {
+        display: block;
+    }
+
+    .container .parent .middle ul {
+
+        align-items: start;
+        flex-direction: column;
+        background-color: white;
+    }
+
     .container .parent .middle ul li {
-        display: none;
+        padding: 20px;
+    }
+
+
+    .container .parent .middle ul li {
+        display: block;
 
 
     }
@@ -508,140 +583,26 @@
     .container .parent .last i {
         font-size: 20px;
     }
-}
 
-
-@media(max-width:575px) {
-    * {
-        font-family: sans-serif;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .container {
-        padding: 0 25px;
-    }
-
-    .container .product1 {
-
+    .nextpart .container .join {
         flex-wrap: wrap;
     }
 
-    .container .product1 .card {
-        width: calc(50% - 25px);
-    }
-
-    .container .footer {
-        flex-wrap: wrap;
-    }
-
-    .container .footer .one {
+    .nextpart .container .join .left {
         width: 100%;
     }
 
-    .container .footer .two {
-        width: 100%;
-    }
-
-    .container .footer .three {
-        width: 100%;
-    }
-
-    .container .footer .four {
-        width: 100%;
-    }
-
-    .container .lastfooter .last {
-
-        margin-top: 25px;
-    }
-
-    .review .container .owl-carousel2 .item .fleximgpara .text p {
-
-        font-size: 15px;
-    }
-
-
-    .review .container .owl-carousel2 .item .fleximgpara h5 {
-        font-size: 18px;
-    }
-
-    .review .container .owl-carousel2 .item .fleximgpara {
-
-        flex-wrap: wrap;
-    }
-
-    .review .container .owl-carousel2 .item .fleximgpara img {
-        width: 100%;
-    }
-
-    .container .upnext .left {
+    .nextpart .container .join .right {
         width: 100%;
         margin-bottom: 30px;
     }
 
-    .container .upnext .right {
-        width: 100%;
-
-    }
-
-    .container .upnext .flexleftright {
-        flex-wrap: wrap;
-    }
-
-
-
-    .nextpart .container .right button a {
-        font-size: 12px;
-    }
-
-
-    .nextpart .container .left h3 {
-        font-size: 36px;
-    }
-
-    .nextpart .container .left p {
-        font-size: 14px;
-    }
-
-    .nextpart .container .left h5 {
-        font-size: 14px;
-    }
-
-    .banner .insidebanner2 h3 {
-        font-size: 28px;
-    }
-
-    .banner .insidebanner2 p {
-        font-size: 15px;
-    }
-
-
-    .banner .insidebanner2 button {
-        padding: 14px 30px;
-    }
-
-    .banner .insidebanner2 button {
-        font-size: 14px;
-    }
-
-    .container .parent .middle ul li {
-        display: none;
-
-
-    }
-
-    .container .parent .last ul li {
-        font-size: 15px;
-    }
-
-    .container .parent .last i {
-        font-size: 18px;
-    }
 }
 
-@media(max-width:320px) {
+
+
+
+@media(max-width:575px) {
     * {
         font-family: sans-serif;
         margin: 0;
@@ -693,6 +654,7 @@
         margin-top: 25px;
     }
 
+
     .review .container .owl-carousel2 .item .fleximgpara .text p {
 
         font-size: 15px;
@@ -729,7 +691,7 @@
 
 
     .nextpart .container .right button a {
-        font-size: 12px;
+        font-size: 16px;
     }
 
 
@@ -762,8 +724,42 @@
         font-size: 14px;
     }
 
+
+    .container .parent .middle {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        min-height: 100vh;
+        width: 250px;
+
+    }
+
+    .container .parent .middle button {
+        display: block;
+    }
+
+    .container .parent .middle ul {
+
+        align-items: start;
+        flex-direction: column;
+        background-color: white;
+    }
+
     .container .parent .middle ul li {
-        display: none;
+        padding: 20px;
+    }
+
+
+    .container .parent .middle ul li {
+        display: block;
+
+
+
+    }
+
+    .container .parent .middle ul li {
+        display: block;
 
 
     }
@@ -775,4 +771,153 @@
     .container .parent .last i {
         font-size: 18px;
     }
+
+    .body .container .parent .left img {
+        height: 30px;
+    }
+
+    /* cart-section */
+    .last .cart {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .last .cart .footer-section {
+        padding: 28px;
+    }
+
+
+    .last .cart .footer-section .btn-new {
+        padding: 6px 10px;
+    }
+
+
+
+
+
+
+    /* 
+    end of cart section */
+
+    .container .parent .last ul li {
+        font-size: 13px;
+    }
+
+    .container .parent .last i {
+        font-size: 21px;
+    }
+
+    .banner .insidebanner2 h5 {
+        font-size: 15px;
+    }
+
+    .banner .insidebanner2 h3 {
+        font-size: 19px;
+    }
+
+    .insidebanner2 p {
+        font-size: 10px;
+    }
+
+    .banner .insidebanner2 button {
+        font-size: 10px;
+    }
+
+    .banner .insidebanner2 button {
+        padding: 8px 30px;
+    }
+
+    .nextpart .container .left h3 {
+        font-size: 24px;
+    }
+
+    .nextpart .container .join {
+        flex-wrap: wrap;
+    }
+
+    .nextpart .container .join .left {
+        width: 100%;
+    }
+
+    .nextpart .container .join .right {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .container .upnext .left h3 {
+        font-size: 35px;
+    }
+
+    .container .upnext .left p {
+        font-size: 14px;
+    }
+
+    .container .upnext .left .btn {
+        border: none;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara .text p {
+        font-size: 12px;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara h5 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .banner .container .insidebanner2 {
+        padding: 18px;
+        width: 100%;
+        right: 0;
+    }
+
+
+    .banner img {
+        height: 400px;
+    }
+
+    .review .container .owl-carousel2 .item .fleximgpara .text {
+        padding: 9px 10px 36px 30px;
+    }
+}
+
+@media(max-width:400px) {
+
+    .container {
+        padding: 0px 15px;
+    }
+
+    .last .cart {
+        width: 100%;
+    }
+
+    .last .cart .subtotal {
+        padding: 28px 2px;
+    }
+
+    .last .cart .flexdiv1 .flexnow {
+
+        padding-left: 32px;
+    }
+
+    .last .cart .footer-section {
+        padding: 28px 2px;
+    }
+
+    .body .container .parent .left button i {
+        font-size: 19px;
+    }
+
+    .body .container .parent .left button i {
+        margin-right: 13px;
+    }
+
+    .container .parent .last ul li {
+        font-size: 11px;
+    }
+
+    .container .parent .last i {
+        font-size: 13px;
+    }
+
 }

@@ -47,6 +47,7 @@
     align-items: center;
 
 
+
 }
 
 .container .parent .middle ul li {
@@ -54,6 +55,27 @@
     font-size: 18px;
     padding-left: 20px;
 
+
+}
+
+.container .parent .middle ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.body .container .parent .left button {
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+
+.body .container .parent .left button i {
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+.container .parent .left {
+    display: flex;
 
 }
 
@@ -71,6 +93,160 @@
     display: block;
     margin-right: 20px;
 
+}
+
+.container .parent .middle {
+    position: relative;
+
+}
+
+.container .parent .middle button {
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background-color: white;
+    display: none;
+
+
+}
+
+/* cart section */
+
+.last .cart {
+    background-color: white;
+    width: 417px;
+    padding: 25px;
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.last .cart.active {
+    display: block;
+}
+
+.last .cart .firstflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+
+}
+
+
+.last .cart .firstflex .firstbtn {
+    font-size: 16px;
+    border: none;
+    background-color: white;
+}
+
+.last .cart .firstflex h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.last .cart .flexdiv1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.last .cart .flexdiv1 img {
+    width: 105px;
+    height: 105px;
+    border-radius: 10px;
+}
+
+.last .cart .flexdiv1 .cross {
+    border: none;
+    font-size: 10px;
+    background-color: white;
+    /* margin-left: 20px; */
+
+}
+
+.last .cart .flexdiv1 .flexnow {
+    flex-direction: column;
+    /* padding-left: 32px; */
+
+}
+
+.last .cart .flexdiv1 .flexnow p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 500;
+
+}
+
+.last .cart .flexdiv1 .flexnow .qty {
+    margin-right: 15px;
+}
+
+.last .cart .flexdiv1 .flexnow .price {
+    margin-left: 15px;
+    color: #b88e2f;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.last .cart .subtotal {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 28px 2px;
+
+}
+
+.last .cart .subtotal h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.last .cart .subtotal h5:last-child {
+    color: #b88e2f;
+    font-weight: 600;
+}
+
+.last .cart .footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 2px;
+    border-top: 1px solid #d9d9d9;
+}
+
+.last .cart .footer-section .btn-new {
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 6px 16px;
+    font-size: 16px;
+    background-color: white;
+    color: #616161;
+}
+
+
+
+
+
+
+
+
+
+/* another */
+.container .parent .last ul .flexli {
+    display: flex;
+
+}
+
+.container .parent .last ul .flexli a {
+    text-decoration: none;
+    color: black;
 }
 
 .container .parent .last ul li .icon {
@@ -207,9 +383,7 @@
 }
 
 
-.next .container .owl-carousel .item {
-    margin-right: 20px;
-}
+
 
 /* .next .container .owl-carousel .item:last-child {
     margin-right: 0;
@@ -293,7 +467,6 @@
 }
 
 
-
 .container .product1 .card .hover .flexbtn .icon2 {
     color: white;
     font-size: 16px;
@@ -315,6 +488,7 @@
 
 .container .product1 .card .section {
     margin-right: 25px;
+    padding: 25px;
 }
 
 
@@ -742,4 +916,192 @@
     border-top: 1px solid #d9d9d9;
     font-size: 16px;
 
+}
+
+
+
+/* JV STORE */
+.inner-banner {
+    position: relative;
+}
+
+.inner-banner .image img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+
+
+.inner-banner .text-area h3 {
+
+    font-weight: 700;
+    color: #212529;
+    font-size: 30px;
+
+}
+
+.inner-banner .text-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-banner .text-area .bread-crumb a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.inner-banner .text-area .bread-crumb span {
+    font-size: 20px;
+}
+
+.inner-banner .text-area .bread-crumb .span {
+    display: inline;
+    top: 3px;
+    margin-right: 4px;
+    font-weight: 700;
+}
+
+body .next-area {
+    background-color: #212529;
+    padding: 30px 0;
+    margin-bottom: 100px;
+
+}
+
+
+.next-area .container .left .btnone {
+    background-color: #212529;
+    border: none;
+
+}
+
+.next-area .container .left .btnone i {
+
+    color: white;
+    font-size: 20px;
+    background-color: #212529;
+    margin-right: 12px;
+}
+
+
+
+.next-area .container .left .btnone span {
+    color: white;
+    font-size: 20px;
+    background-color: #212529;
+    margin-right: 24px;
+}
+
+.next-area .container .left .btntwo {
+
+    color: white;
+    font-size: 20px;
+    background-color: #212529;
+    margin-right: 12px;
+    border: none;
+}
+
+.next-area .container .left .btnthree {
+
+    color: white;
+    font-size: 20px;
+    background-color: #212529;
+    margin-left: 24px;
+    margin-right: 12px;
+    border: none;
+}
+
+.next-area .container .left .btnthree i {
+    margin-right: 24px;
+}
+
+.next-area .middle {
+    margin-right: 24px;
+}
+
+.next-area .middle .result {
+    margin-left: 30px;
+    padding: 4px 0 4px 30px;
+    font-weight: 400;
+    height: 100%;
+    border-left: 1px solid #fff;
+}
+
+.next-area .middle .container .result span {
+    font-size: 20px;
+    color: white;
+}
+
+.next-area .flexthree {
+    display: flex;
+    align-items: center;
+
+}
+
+.next-area .right .container span {
+    font-size: 20px;
+    color: white;
+    padding: 7px 12px;
+    margin-right: 25px;
+
+}
+
+.next-area .right .container form input {
+    height: 55px;
+    border-radius: 0;
+    color: #9f9f9f;
+    background-color: white;
+    border: none;
+    width: 55px;
+    margin-right: 25px;
+
+
+
+}
+
+.next-area .right .container form input::placeholder {
+    text-align: center;
+    font-size: 18px;
+}
+
+.next-area .right .container .flexfour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-area .right {
+    margin-left: 150px;
+}
+
+
+
+.next-area .right .container #option {
+    height: 55px;
+    border-radius: 0;
+    color: #9f9f9f;
+    font-size: 18px;
+    padding: 6px 36px 6px 12px;
+
+}
+
+.next-area .right .container #option.active {
+    border: none;
+}
+
+.container .product1.last-child {
+    padding: 60px 0;
+}
+
+.new-last .footer {
+    border-top: 1px solid #d9d9d9;
+    padding-top: 60px;
 }
