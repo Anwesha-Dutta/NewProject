@@ -118,6 +118,90 @@
     .container .parent .last i {
         font-size: 20px;
     }
+
+    /* Responsive for JV Store */
+    .next-area .flexthree {
+        flex-wrap: wrap;
+    }
+
+    .next-area .middle {
+        margin-right: 8px;
+        width: 50%;
+    }
+
+    .next-area .container .left .btnone span {
+        font-size: 20px;
+    }
+
+    .next-area .right {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .next-area .middle .container .result span {
+        font-size: 20px;
+    }
+
+    .next-area .right .container span {
+        font-size: 20px;
+    }
+
+    .next-area .middle {
+        margin-top: 45px;
+        margin-bottom: 25px;
+    }
+
+    .next-area .container .flexthree .left {
+        margin-left: 14px;
+    }
+
+    .next-area .container .flexthree .right .container .flexfour {
+        flex-wrap: wrap;
+    }
+
+    .next-area .right .container form input {
+        height: 50px;
+        margin-bottom: 25px;
+
+    }
+
+    .next-area .right .container form input {
+        margin-top: 30px;
+    }
+
+    .next-area .middle .result {
+        margin-left: 16px;
+    }
+
+    .inner-banner .text-area h3 {
+        font-size: 24px;
+    }
+
+    .inner-banner .text-area .bread-crumb a {
+        font-size: 18px;
+
+    }
+
+    .inner-banner .text-area .bread-crumb span {
+        font-size: 18px;
+    }
+
+    .inner-banner .text-area .bread-crumb .span i {
+        font-size: 15px;
+    }
+
+    .next-area .middle .result {
+        margin-left: 6px;
+    }
+
+    .container {
+        padding: 0 50px;
+    }
+
+    body .next-area {
+        padding: 30px 60px;
+
+    }
 }
 
 
@@ -247,6 +331,90 @@
 
     .container .parent .last i {
         font-size: 20px;
+    }
+
+    /* Responsive for JV Store */
+    .next-area .flexthree {
+        flex-wrap: wrap;
+    }
+
+    .next-area .middle {
+        margin-right: 8px;
+        width: 50%;
+    }
+
+    .next-area .container .left .btnone span {
+        font-size: 20px;
+    }
+
+    .next-area .right {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .next-area .middle .container .result span {
+        font-size: 20px;
+    }
+
+    .next-area .right .container span {
+        font-size: 20px;
+    }
+
+    .next-area .middle {
+        margin-top: 45px;
+        margin-bottom: 25px;
+    }
+
+    .next-area .container .flexthree .left {
+        margin-left: 14px;
+    }
+
+    .next-area .container .flexthree .right .container .flexfour {
+        flex-wrap: wrap;
+    }
+
+    .next-area .right .container form input {
+        height: 50px;
+        margin-bottom: 25px;
+
+    }
+
+    .next-area .right .container form input {
+        margin-top: 30px;
+    }
+
+    .next-area .middle .result {
+        margin-left: 16px;
+    }
+
+    .inner-banner .text-area h3 {
+        font-size: 24px;
+    }
+
+    .inner-banner .text-area .bread-crumb a {
+        font-size: 18px;
+
+    }
+
+    .inner-banner .text-area .bread-crumb span {
+        font-size: 18px;
+    }
+
+    .inner-banner .text-area .bread-crumb .span i {
+        font-size: 15px;
+    }
+
+    .next-area .middle .result {
+        margin-left: 6px;
+    }
+
+    .container {
+        padding: 0 50px;
+    }
+
+    body .next-area {
+        padding: 30px 60px;
+
     }
 }
 
@@ -415,6 +583,91 @@
     .body .container .parent .left button.active {
         display: block;
     } */
+
+
+    /* Responsive for JV Store */
+    .next-area .flexthree {
+        flex-wrap: wrap;
+    }
+
+    .next-area .middle {
+        margin-right: 8px;
+        width: 50%;
+    }
+
+    .next-area .container .left .btnone span {
+        font-size: 15px;
+    }
+
+    .next-area .right {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .next-area .middle .container .result span {
+        font-size: 15px;
+    }
+
+    .next-area .right .container span {
+        font-size: 15px;
+    }
+
+    .next-area .middle {
+        margin-top: 45px;
+        margin-bottom: 25px;
+    }
+
+    .next-area .container .flexthree .left {
+        margin-left: 14px;
+    }
+
+    .next-area .container .flexthree .right .container .flexfour {
+        flex-wrap: wrap;
+    }
+
+    .next-area .right .container form input {
+        height: 50px;
+        margin-bottom: 25px;
+
+    }
+
+    .next-area .right .container form input {
+        margin-top: 30px;
+    }
+
+    .next-area .middle .result {
+        margin-left: 16px;
+    }
+
+    .inner-banner .text-area h3 {
+        font-size: 24px;
+    }
+
+    .inner-banner .text-area .bread-crumb a {
+        font-size: 18px;
+
+    }
+
+    .inner-banner .text-area .bread-crumb span {
+        font-size: 18px;
+    }
+
+    .inner-banner .text-area .bread-crumb .span i {
+        font-size: 15px;
+    }
+
+    .next-area .middle .result {
+        margin-left: 6px;
+    }
+
+    .container {
+        padding: 0 50px;
+    }
+
+    body .next-area {
+        padding: 30px 40px;
+
+    }
 }
 
 @media(max-width:767px) {
@@ -597,6 +850,89 @@
         margin-bottom: 30px;
     }
 
+    /* Responsive for JV Store */
+    .next-area .flexthree {
+        flex-wrap: wrap;
+    }
+
+    .next-area .middle {
+        margin-right: 8px;
+        width: 50%;
+    }
+
+    .next-area .container .left .btnone span {
+        font-size: 15px;
+    }
+
+    .next-area .right {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .next-area .middle .container .result span {
+        font-size: 15px;
+    }
+
+    .next-area .right .container span {
+        font-size: 15px;
+    }
+
+    .next-area .middle {
+        margin-top: 45px;
+        margin-bottom: 25px;
+    }
+
+    .next-area .container .flexthree .left {
+        margin-left: 14px;
+    }
+
+    .next-area .container .flexthree .right .container .flexfour {
+        flex-wrap: wrap;
+    }
+
+    .next-area .right .container form input {
+        height: 50px;
+        margin-bottom: 25px;
+
+    }
+
+    .next-area .right .container form input {
+        margin-top: 30px;
+    }
+
+    .next-area .middle .result {
+        margin-left: 16px;
+    }
+
+    .inner-banner .text-area h3 {
+        font-size: 24px;
+    }
+
+    .inner-banner .text-area .bread-crumb a {
+        font-size: 18px;
+
+    }
+
+    .inner-banner .text-area .bread-crumb span {
+        font-size: 18px;
+    }
+
+    .inner-banner .text-area .bread-crumb .span i {
+        font-size: 15px;
+    }
+
+    .next-area .middle .result {
+        margin-left: 6px;
+    }
+
+    .container {
+        padding: 0 12px;
+    }
+
+    body .next-area {
+        padding: 30px 46px;
+
+    }
 }
 
 
@@ -878,6 +1214,97 @@
 
     .review .container .owl-carousel2 .item .fleximgpara .text {
         padding: 9px 10px 36px 30px;
+    }
+
+    /* Responsive for JV Store */
+    .next-area .flexthree {
+        flex-wrap: wrap;
+    }
+
+    .next-area .middle {
+        margin-right: 8px;
+        width: 100%;
+    }
+
+    .next-area .container .left .btnone span {
+        font-size: 15px;
+    }
+
+    .next-area .right {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .next-area .middle .container .result span {
+        font-size: 15px;
+    }
+
+    .next-area .right .container span {
+        font-size: 15px;
+    }
+
+    .next-area .middle {
+        margin-top: 45px;
+        margin-bottom: 25px;
+    }
+
+    .next-area .container .flexthree .left {
+        margin-left: 14px;
+    }
+
+    .next-area .container .flexthree .right .container .flexfour {
+        flex-wrap: wrap;
+    }
+
+    .next-area .right .container form input {
+        height: 50px;
+        margin-bottom: 25px;
+
+    }
+
+    .next-area .right .container form input {
+        margin-top: 30px;
+    }
+
+    .next-area .middle .result {
+        margin-left: 16px;
+    }
+
+    .inner-banner .text-area h3 {
+        font-size: 24px;
+    }
+
+    .inner-banner .text-area .bread-crumb a {
+        font-size: 18px;
+
+    }
+
+    .inner-banner .text-area .bread-crumb span {
+        font-size: 18px;
+    }
+
+    .inner-banner .text-area .bread-crumb .span i {
+        font-size: 15px;
+    }
+
+    .next-area .middle .result {
+        margin-left: 6px;
+    }
+
+    .container {
+        padding: 0 14px;
+    }
+
+    body .next-area {
+        padding: 30px 16px;
+    }
+
+    .next-area .container .left .btnone {
+        margin-bottom: 20px;
+    }
+
+    .next-area .container .left .btntwo {
+        margin-right: 20px;
     }
 }
 

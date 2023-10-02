@@ -232,7 +232,9 @@
 
 
 
-
+.last .cart.active .firstflex button i {
+    font-size: 20px;
+}
 
 
 
@@ -967,6 +969,10 @@
     top: 3px;
     margin-right: 4px;
     font-weight: 700;
+}
+
+.text-area .bread-crumb .span i {
+    font-size: 17px;
 }
 
 body .next-area {
