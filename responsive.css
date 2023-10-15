@@ -1203,8 +1203,9 @@
 
     .banner .container .insidebanner2 {
         padding: 18px;
-        width: 100%;
+        width: 95%;
         right: 0;
+        margin-right: 15px;
     }
 
 
