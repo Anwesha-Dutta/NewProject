@@ -19,7 +19,7 @@ $run =mysqli_query($conn,$qry);
 
         form{
           margin-left:auto;
-          margin-right:auto;
+          margin-right:auto; 
           max-width:350px;
           background-color: white;
           padding:50px;
